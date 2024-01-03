@@ -1,0 +1,124 @@
+.main{
+  text-align: center;
+  color: #fff;
+}
+
+.main h1{
+  margin: 5%;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    height: 2rem;
+    width: 30rem;
+    margin: 2rem;
+    font-size: larger;
+    font-weight: 550;
+    color: #fff;
+    background: transparent;
+}
+
+.form input:focus{
+  box-shadow: 4px 4px 2px  #466964;
+  transition: 0.2s ease-in;
+}
+
+.form button{
+  border: none;
+  background-color: #466964;
+  color: #fff;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 4px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* height: 20vh; */
+  width: 50vw;
+  border-bottom: 0.1px #fff solid;
+  border-right: 0.1px #fff solid;
+  border-radius: 5px;
+  margin: 1rem;
+  font-size: larger;
+  font-weight: 500;
+  padding: 2%;
+  padding-bottom: 0.5%;
+  word-wrap: break-word;
+  background-color: #3c4e4b;
+}
+
+.todo:hover{
+  box-shadow: 4px 4px 2px  #466964;
+  transition: 0.2s ease-in;
+}
+
+
+/* .icons{
+  display: flex;
+  justify-content: space-between;
+  background-color: #466964;
+  width: inherit;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.icon{
+  font-size: 25px;
+  margin: 2px;
+} */
+
+.icon{
+  margin: 5px 4px;
+
+}
+
+.icon:hover{
+  border: 1px solid #fff;
+}
+
+.update-container input{
+  border: none;
+  height: 80%;
+  font-size: 25px;
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  border-bottom: 1px solid #333333;
+  color: #fff;
+}
+
+.update-container button{
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  margin: 0px 5px;
+  border: 15px;
+  background-color: #333333;
+  color: #fff;
+  width: 8vw;
+  border-radius: 10px;
+}
+
